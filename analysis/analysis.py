@@ -115,7 +115,7 @@ df = pd.get_dummies(df, columns=['cp'], prefix='cp')
 df['sex_male'] = df['sex']
 df['exang_yes'] = df['exang']
 
-print("Dataset final após análise de dados necessárias conforme aula 06 de EDA e ETL")
+print("Dataset final após análise de dados necessárias conforme aula 06 de EDA (Exploração de Dados) e ETL (Extração, Transformação e Limpeza)")
 print(df.head())
 print(df)
 

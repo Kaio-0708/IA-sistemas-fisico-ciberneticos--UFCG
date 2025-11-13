@@ -73,7 +73,6 @@ Essas correlações sugerem:
 | `thalach` | 1 | 1 |
 | `oldpeak` | 2 | 5 |
 
-O número reduzido de outliers indica uma base razoavelmente limpa, com poucas anomalias nos valores.
 
 ---
 

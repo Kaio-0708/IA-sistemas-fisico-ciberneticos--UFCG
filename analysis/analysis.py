@@ -43,10 +43,10 @@ print(df[num_cols].median())
 for col in num_cols:
     plt.figure(figsize=(12,5))
     plt.subplot(1,2,1)
-    sns.histplot(df[col], kde=True, bins=20, color="skyblue")
+    sns.histplot(df[col], kde=True, bins=20, color="blue")
     plt.title(f"Histograma de {col}")
     plt.subplot(1,2,2)
-    sns.boxplot(x=df[col], color="lightgreen")
+    sns.boxplot(x=df[col], color="green")
     plt.title(f"Boxplot de {col}")
     plt.show()
     

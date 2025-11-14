@@ -1,6 +1,6 @@
 # Inteligência Artificial aplicada a Sistemas Físico-Cibernéticos
 
-> Projeto desenvolvido para a disciplina **Inteligência Artificial aplicada a Sistemas Físico-Cibernéticos** do curso de **Engenharia Elétrica** na **UFCG**.
+ Projeto desenvolvido para a disciplina **Inteligência Artificial aplicada a Sistemas Físico-Cibernéticos** do curso de **Engenharia Elétrica** na **UFCG**.
 
 ## Sobre o Projeto
 

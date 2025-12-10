@@ -94,7 +94,7 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 - Melhor F1-score (86.49%)
 - Melhor ROC AUC (94.67%)
 
- ** Relatórios de Classificação Detalhados**
+ **Relatórios de Classificação Detalhados**
 
  **Distribuição das Classes**
 

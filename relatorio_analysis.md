@@ -19,7 +19,6 @@
 
 Após limpeza de valores ausentes, o dataset final contém **297 amostras e 14 atributos**.
 
----
 
 ### Estatísticas Descritivas (Após Limpeza)
 
@@ -31,7 +30,6 @@ Após limpeza de valores ausentes, o dataset final contém **297 amostras e 14 a
 | **Frequência cardíaca máxima (thalach)** | 149.60 | 153.0   | 22.94         | 71     | 202    |
 | **Depressão ST (oldpeak)**               | 1.06   | 0.8     | 1.17          | 0.0    | 6.2    |
 
----
 
 ### Distribuição das Variáveis Categóricas
 
@@ -62,7 +60,6 @@ Essas correlações sugerem:
 - **Maior número de vasos coloridos (`ca`)** e **tipo de talassemia (`thal`)** se associam a maior probabilidade de doença cardíaca.
 - A variável **oldpeak** (depressão ST) tem forte relação com a **inclinação do segmento ST (`slope`)**, o que é clinicamente coerente.
 
----
 
 ### Detecção de Outliers
 
@@ -74,7 +71,6 @@ Essas correlações sugerem:
 | `thalach`  | 1                  | 1              |
 | `oldpeak`  | 2                  | 5              |
 
----
 
 ### Transformações Aplicadas
 
@@ -86,7 +82,6 @@ Essas correlações sugerem:
 
 O dataset final resultou em **20 colunas** após todas as transformações.
 
----
 
 ## A análise exploratória revelou padrões importantes:
 
@@ -95,7 +90,6 @@ O dataset final resultou em **20 colunas** após todas as transformações.
 - O dataset é bem estruturado e apresenta **baixa presença de outliers**.
 - Após a limpeza e codificação, o conjunto de dados está **pronto para modelagem preditiva**.
 
----
 
 ### Tamanho Final do Dataset
 

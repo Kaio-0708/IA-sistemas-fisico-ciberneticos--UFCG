@@ -40,7 +40,7 @@ usar_scaled = ["Regressão Logística", "KNN", "SVM-RBF"]
 resultados = {}
 f1s = {}
 precisoes = {}
-roc_aucs={}
+roc_aucs = {}
 roc_curves = {}
 
 for nome, modelo in modelos.items():

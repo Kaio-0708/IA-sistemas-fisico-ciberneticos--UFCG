@@ -43,7 +43,7 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 - **F1-score (classe 1):** 0.8000
 - **ROC AUC:** 0.9009
 
-##**Análise Comparativa**
+**Análise Comparativa**
 
 ### **1. Acurácia**
 

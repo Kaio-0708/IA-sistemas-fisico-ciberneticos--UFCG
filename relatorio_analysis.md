@@ -45,7 +45,6 @@ Após limpeza de valores ausentes, o dataset final contém **297 amostras e 14 a
 | **Talassemia (thal)**                     | 3.0: 164 • 7.0: 115 • 6.0: 18             |
 | **Classe-alvo (target)**                  | 0: 160 • 1: 54 • 2: 35 • 3: 35 • 4: 13    |
 
----
 
 ### Correlações Mais Fortes
 

@@ -1,10 +1,10 @@
-# Relatório de Classificação Binária
+**Relatório de Classificação Binária**
 
 **Visão Geral**
 
 Este projeto implementa e compara o desempenho de diferentes algoritmos de classificação binária em um conjunto de dados supervisionado. Foram avaliados cinco modelos: **Regressão Logística**, **KNN**, **SVM-RBF**, **Random Forest** e **XGBoost**.
 
-## Resultados dos Modelos
+**Resultados dos Modelos**
 
 ### **Regressão Logística**
 
@@ -111,6 +111,6 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 | Random Forest       | 0.84         | 0.88      | 0.86  | 0.85         | 0.80      | 0.82  |
 | XGBoost             | 0.82         | 0.86      | 0.84  | 0.82         | 0.78      | 0.80  |
 
-## Conclusão
+**Conclusão**
 
 **SVM-RBF é o modelo mais recomendado para este problema.**

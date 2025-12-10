@@ -1,4 +1,4 @@
-# **Relatório de Classificação Binária**
+**Relatório de Classificação Binária**
 
 **Visão Geral**
 
@@ -85,7 +85,7 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 | 4º      | KNN                 | 0.9258  |
 | 5º      | XGBoost             | 0.9009  |
 
-## **Modelo Vencedor**
+**Modelo Vencedor**
 
 **SVM-RBF** emergiu como o modelo mais eficiente, alcançando o melhor desempenho em todas as métricas avaliadas:
 
@@ -94,14 +94,14 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 - Melhor F1-score (86.49%)
 - Melhor ROC AUC (94.67%)
 
-## ** Relatórios de Classificação Detalhados**
+ ** Relatórios de Classificação Detalhados**
 
-### **Distribuição das Classes**
+ **Distribuição das Classes**
 
 - Classe 0: **49** amostras
 - Classe 1: **41** amostras
 
-### **Métricas por Modelo**
+**Métricas por Modelo**
 
 | Modelo              | Precision C0 | Recall C0 | F1 C0 | Precision C1 | Recall C1 | F1 C1 |
 | ------------------- | ------------ | --------- | ----- | ------------ | --------- | ----- |

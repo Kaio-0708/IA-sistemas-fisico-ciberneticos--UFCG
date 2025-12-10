@@ -4,8 +4,6 @@
 
 Este projeto implementa e compara o desempenho de diferentes algoritmos de classificação binária em um conjunto de dados supervisionado. Foram avaliados cinco modelos: **Regressão Logística**, **KNN**, **SVM-RBF**, **Random Forest** e **XGBoost**.
 
----
-
 ## Resultados dos Modelos
 
 ### **Regressão Logística**
@@ -44,8 +42,6 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 - **Precisão (classe 1):** 0.8205
 - **F1-score (classe 1):** 0.8000
 - **ROC AUC:** 0.9009
-
----
 
 ## Análise Comparativa
 
@@ -89,8 +85,6 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 | 4º      | KNN                 | 0.9258  |
 | 5º      | XGBoost             | 0.9009  |
 
----
-
 ## Modelo Vencedor
 
 **SVM-RBF** emergiu como o modelo mais eficiente, alcançando o melhor desempenho em todas as métricas avaliadas:
@@ -99,8 +93,6 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 - Maior precisão para a classe positiva (96.97%)
 - Melhor F1-score (86.49%)
 - Melhor ROC AUC (94.67%)
-
----
 
 ## Relatórios de Classificação Detalhados
 
@@ -118,8 +110,6 @@ Este projeto implementa e compara o desempenho de diferentes algoritmos de class
 | SVM-RBF             | 0.84         | 0.98      | 0.91  | 0.97         | 0.78      | 0.86  |
 | Random Forest       | 0.84         | 0.88      | 0.86  | 0.85         | 0.80      | 0.82  |
 | XGBoost             | 0.82         | 0.86      | 0.84  | 0.82         | 0.78      | 0.80  |
-
----
 
 ## Conclusão
 

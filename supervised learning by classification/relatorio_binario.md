@@ -1,6 +1,6 @@
 # Relatório de Classificação Binária
 
-## Visão Geral
+**Visão Geral**
 
 Este projeto implementa e compara o desempenho de diferentes algoritmos de classificação binária em um conjunto de dados supervisionado. Foram avaliados cinco modelos: **Regressão Logística**, **KNN**, **SVM-RBF**, **Random Forest** e **XGBoost**.
 

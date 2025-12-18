@@ -10,7 +10,7 @@ Este projeto utiliza o **Heart Disease Dataset (Cleveland)**, um conjunto de dad
 
 O principal objetivo deste trabalho é:
 
- **Descobrir se, de acordo com os atributos clínicos e demográficos, uma pessoa pode ou não ter doença cardíaca.
+Descobrir se, de acordo com os atributos clínicos e demográficos, uma pessoa pode ou não ter doença cardíaca.
 
 No dataset:
 

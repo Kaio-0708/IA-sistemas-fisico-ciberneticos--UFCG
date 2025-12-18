@@ -1,6 +1,22 @@
 ### Informações Gerais do Dataset
 
-| Atributo | Total de Entradas | Tipo  | Valores Ausentes |
+Atributos:
+- idade  
+- sexo  
+- tipo_de_dor_torácica  
+- pressao_arterial_em_repouso  
+- colesterol_serico  
+- glicemia_em_jejum  
+- resultado_ecg_em_repouso  
+- frequencia_cardiaca_maxima  
+- angina_induzida_por_exercicio  
+- depressao_st  
+- inclinacao_segmento_st  
+- numero_de_vasos_principais  
+- resultado_teste_talio  
+- doenca_cardiaca
+
+| Atributo | Total de Entradas | Tipo  | Valores Ausentes | 
 | -------- | ----------------- | ----- | ---------------- |
 | age      | 303               | float | 0                |
 | sex      | 303               | float | 0                |

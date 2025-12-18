@@ -1,20 +1,21 @@
 ### Informações Gerais do Dataset
 
-Atributos:
-- idade  
-- sexo  
-- tipo_de_dor_torácica  
-- pressao_arterial_em_repouso  
-- colesterol_serico  
-- glicemia_em_jejum  
-- resultado_ecg_em_repouso  
-- frequencia_cardiaca_maxima  
-- angina_induzida_por_exercicio  
-- depressao_st  
-- inclinacao_segmento_st  
-- numero_de_vasos_principais  
-- resultado_teste_talio  
-- doenca_cardiaca
+| Atributo  | Descrição |
+
+| idade | Idade do paciente |
+| sexo | Sexo biológico do paciente |
+| tipo_de_dor_torácica | Tipo de dor no peito apresentada pelo paciente |
+| pressao_arterial_em_repouso | Pressão arterial medida em repouso |
+| colesterol_serico | Nível de colesterol sérico no sangue |
+| glicemia_em_jejum | Nível de açúcar no sangue em jejum |
+| resultado_ecg_em_repouso | Resultado do eletrocardiograma em repouso |
+| frequencia_cardiaca_maxima | Frequência cardíaca máxima atingida |
+| angina_induzida_por_exercicio | Presença de angina induzida por exercício |
+| depressao_st | Depressão do segmento ST induzida por exercício |
+| inclinacao_segmento_st | Inclinação do segmento ST durante o pico do exercício |
+| numero_de_vasos_principais | Número de vasos principais observados na fluoroscopia |
+| resultado_teste_talio | Resultado do teste de tálio |
+| doenca_cardiaca | Indica a presença de doença cardíaca |
 
 | Atributo | Total de Entradas | Tipo  | Valores Ausentes | 
 | -------- | ----------------- | ----- | ---------------- |

@@ -1,3 +1,78 @@
+#  Heart Disease Dataset (Cleveland)
+
+##  Introdução
+
+Este projeto utiliza o **Heart Disease Dataset (Cleveland)**, um conjunto de dados clássico da área de **Saúde e Aprendizado de Máquina**, amplamente empregado em estudos de **diagnóstico de doenças cardíacas**. O dataset contém informações clínicas e laboratoriais de pacientes, coletadas com o objetivo de analisar fatores associados à presença de doença cardíaca.
+
+---
+
+##  Objetivo do Projeto
+
+O principal objetivo deste trabalho é:
+
+ **Descobrir se, de acordo com os atributos clínicos e demográficos, uma pessoa pode ou não ter doença cardíaca.
+
+No dataset:
+
+target = 0 → Não possui doença cardíaca
+
+target = 1 → Possui doença cardíaca
+
+Ou seja, trata-se de um problema de classificação binária supervisionada.**
+
+---
+## Etapas Realizadas:
+
+###  Extração (Extract)
+
+- Leitura do arquivo `processed.cleveland.data`
+- Definição explícita dos nomes das colunas
+- Tratamento inicial de valores ausentes (`?` → `NaN`)
+
+###  Transformação e Limpeza (Transform & Load)
+
+- Remoção de valores nulos
+- Conversão de todos os dados para formato numérico
+- Verificação de duplicatas
+- Análise estatística descritiva
+
+### Análise Exploratória de Dados (EDA)
+
+####  Análise Univariada
+
+- Histogramas e boxplots para variáveis numéricas
+- Análise de média, mediana e desvio padrão
+- Gráficos de contagem para variáveis categóricas
+
+#### Análise Bivariada e Multivariada
+
+- Matriz de correlação (heatmap)
+- Identificação das correlações mais fortes
+- Scatter plots para relações numéricas
+- Boxplots comparando variáveis com o `target`
+
+### Detecção de Outliers
+
+- Método do **Z-score**
+- Método do **Intervalo Interquartil (IQR)**
+- Comparação entre os dois métodos
+
+###  Engenharia de Atributos
+
+- Transformação logarítmica da variável `oldpeak`
+- Codificação de variáveis categóricas (`cp`) usando dummies
+- Criação de variáveis binárias semânticas (`sex_male`, `exang_yes`)
+
+---
+
+## Dataset Final
+
+Após todas as etapas de **EDA(Exploração de Dados) e ETL(Extração, Transformação e limpeza)**, foi gerado o arquivo final:
+
+```text
+heart_disease_final.csv
+```
+
 ### Informações Gerais do Dataset
 
 | Atributo  | Descrição |
@@ -34,8 +109,7 @@
 | thal     | 301               | float | 2                |
 | target   | 303               | int   | 0                |
 
-Após limpeza de valores ausentes, o dataset final contém **297 amostras e 14 atributos**.
-
+Após limpeza de valores ausentes, o dataset final contém **297 amostras e 14 atributos**. Os registros com valores ausentes nas variáveis `ca` e `thal` foram removidos.
 
 ### Estatísticas Descritivas (Após Limpeza)
 
@@ -60,7 +134,7 @@ Após limpeza de valores ausentes, o dataset final contém **297 amostras e 14 a
 | **Inclinação do segmento ST (slope)**     | 1.0: 139 • 2.0: 137 • 3.0: 21             |
 | **Vasos principais coloridos (ca)**       | 0.0: 174 • 1.0: 65 • 2.0: 38 • 3.0: 20    |
 | **Talassemia (thal)**                     | 3.0: 164 • 7.0: 115 • 6.0: 18             |
-| **Classe-alvo (target)**                  | 0: 160 • 1: 54 • 2: 35 • 3: 35 • 4: 13    |
+| **Classe-alvo (target)**                  | 0: 160 • 1: 54 • 1: 35 • 1: 35 • 1: 13    |
 
 
 ### Correlações Mais Fortes

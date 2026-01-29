@@ -83,11 +83,13 @@ if st.button("Avaliar risco conforme"):
     
     if pred == 1:
         st.error(f" Alto risco de doença cardíaca\n\nProbabilidade: {probability:.2%}")
-        st.error(""" **Recomendações:**
+        st.error(""" 
+        **Recomendações:**
         - Consulte um cardiologista o quanto antes
         - Realize exames complementares
         - Monitore sinais como dor no peito e falta de ar
-        - Mantenha acompanhamento médico regular""")
+        - Mantenha acompanhamento médico regular
+        """)
     else:
         st.success(f" Baixo risco de doença cardíaca\n\nProbabilidade: {probability:.2%}")
         st.success("""

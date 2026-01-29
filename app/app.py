@@ -76,7 +76,10 @@ if st.button("Avaliar risco conforme"):
     #pred = model.predict(input_scaled)[0]
     probability = model.predict_proba(input_scaled)[0][1]
     THRESHOLD = 0.35
-    pred = 1 if probability >= THRESHOLD else 0
+    if probability >= THRESHOLD:
+        pred = 1
+    else:
+        pred = 0
     
     if pred == 1:
         st.error(f" Alto risco de doença cardíaca\n\nProbabilidade: {probability:.2%}")

@@ -28,6 +28,7 @@ https://uci-ics-mlr-prod.aws.uci.edu/dataset/45/heart%2Bdisease
    - Geração do dataset final `heart_disease_final.csv`.
 
 3. **Modelagem e Treinamento**
+   - Aprendizado supervisionado
    - Divisão em **treino e teste** (70/30).
    - Escalonamento de dados com `StandardScaler`.
    - Treinamento de modelos:
@@ -40,7 +41,7 @@ https://uci-ics-mlr-prod.aws.uci.edu/dataset/45/heart%2Bdisease
      - **Acurácia**, **Precisão**, **F1-score**, **ROC AUC**
    - Comparação visual de desempenho com gráficos de barras e curvas ROC.
 
-4. **Interface Interativa (Streamlit)**
+5. **Interface Interativa (Streamlit)**
    - Inputs clínicos do paciente: idade, sexo, pressão, colesterol, ECG, etc.
    - Transformações e dummy encoding replicando o pré-processamento do dataset.
    - Escalonamento com o `StandardScaler` treinado.

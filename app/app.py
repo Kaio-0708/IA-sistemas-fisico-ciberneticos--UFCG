@@ -59,10 +59,10 @@ if st.button("Avaliar risco conforme"):
     input_df["oldpeak_log"] = np.log(input_df["oldpeak"] + 1)
     
     for i in range(4):
-    if cp == i:
-        input_df["cp_" + str(i)] = 1
-    else:
-        input_df["cp_" + str(i)] = 0
+        if cp == i:
+            input_df["cp_" + str(i)] = 1
+        else:
+            input_df["cp_" + str(i)] = 0
     
     for col in features:
         if col not in input_df.columns:
